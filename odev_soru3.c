@@ -8,7 +8,7 @@ int main() {
     printf("Bir harf girin: ");
     scanf(" %c", &harf);
 
-    if (harf == 'a' || harf == 'e' || harf == 'ý' || harf == 'i' || harf == 'o' || harf == 'ö' || harf == 'u' || harf == 'ü') {
+    if (harf == 'a' || harf == 'e' || harf == 'Ä±' || harf == 'i' || harf == 'o' || harf == 'Ã¶' || harf == 'u' || harf == 'Ã¼') {
         printf("Sesli harf\n");
     }
 
@@ -18,3 +18,4 @@ int main() {
 
     return 0;
 }
+
